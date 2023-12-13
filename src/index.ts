@@ -1,16 +1,16 @@
-import { HeartSurgeon, NeuroSurgeon, Surgeon } from "./lsp/Surgeon";
-import { Medicament } from "./ocp/Medicament";
-import { DetailedPrescription } from "./ocp/prescription/DetailedPrescription";
-import { PrescriptionPrinter } from "./ocp/prescription/PrintPrescription";
-import { SimplePrescription } from "./ocp/prescription/SimplePrescription";
-import { Admission } from "./di/PatientAdmission";
+import { HeartSurgeon, NeuroSurgeon, Surgeon } from "./l/Surgeon";
+import { Medicament } from "./o/Medicament";
+import { DetailedPrescription } from "./o/prescription/DetailedPrescription";
+import { PrescriptionPrinter } from "./o/prescription/PrintPrescription";
+import { SimplePrescription } from "./o/prescription/SimplePrescription";
+import { Admission } from "./d/PatientAdmission";
 import { Patient } from "./theGoodPatient/Patient.model";
-import { Room } from "./srp/Room";
-import { RoomAssignment } from "./srp/RoomAssignment";
-import { Aspirin } from "./is/Aspirin";
-import { Insulin } from "./is/Insulin";
-import { InjectableDrug } from "./is/interfaces/Injectable.interface";
-import { OralDrug } from "./is/interfaces/Oral.interface";
+import { Room } from "./s/Room";
+import { RoomAssignment } from "./s/RoomAssignment";
+import { Aspirin } from "./i/Aspirin";
+import { Insulin } from "./i/Insulin";
+import { InjectableDrug } from "./i/interfaces/Injectable.interface";
+import { OralDrug } from "./i/interfaces/Oral.interface";
 
 // srp
 
