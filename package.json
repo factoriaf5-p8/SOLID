@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite-node --wath ./src/index.ts"
+    "dev:beverages": "vite-node --watch ./src/beverages/index.ts"
   },
   "devDependencies": {
     "typescript": "^5.2.2",
